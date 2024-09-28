@@ -237,7 +237,7 @@ def handle_stop(message):
     bot.reply_to(message, "🛑 Attack stopped.")
 
 def handle_contact_admin(message):
-    bot.reply_to(message, f"📞 @Kiltes: {ADMIN_ID}")
+    bot.reply_to(message, f"📞 @Mrdealer712: {ADMIN_ID}")
 
 def handle_generate_key(message):
     if message.from_user.id == ADMIN_ID:
